@@ -1,0 +1,11 @@
+@chatset "UTF-8";
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  background-color: red;
+}
+header {
+}
+h1 {
+  color: green;
+}
