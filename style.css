@@ -54,3 +54,9 @@ footer {
 			overflow: hidden;
 			background-color: transparent;
 		}
+.animated-header {
+  margin-top: 180px;
+  color: black;
+  font-size: 280px;
+  transition: all 0.3s ease;
+}
