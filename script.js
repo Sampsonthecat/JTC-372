@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', () => {
+window.onload = () => {
   setTimeout(() => {
     shrinkHeader();
-  }, 800);
+  }, 1000);
 });
 
 function shrinkHeader() {
