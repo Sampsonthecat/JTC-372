@@ -25,3 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 900);
 
 });
+
+window.addEventListener('load', function() {
+  const iframe = document.getElementById('my-iframe');
+  iframe.classList.add('show');
+});
