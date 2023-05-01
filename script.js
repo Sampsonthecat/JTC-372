@@ -15,5 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const fadeInText = document.getElementById("fade-in-text");  
   setTimeout(function () {
     fadeInText.style.opacity = "1";
-  }, 1100);
+  }, 500);
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const slowFadeInText = document.getElementById("slow-fade-in-text");  
+  setTimeout(function () {
+    slowFadeInText.style.opacity = "1";
+  }, 900);
+
 });
